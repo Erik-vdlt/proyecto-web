@@ -1,0 +1,14 @@
+form.formulario-cliente{
+    margin: 5%;
+    padding: 5%;
+}
+
+button.btn-registrar{
+    border-radius: 40px;
+    background: green;
+}
+
+div.col{
+    padding-top: 10px;
+    margin-right: 100px;
+}
