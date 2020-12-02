@@ -10,13 +10,13 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <form class="card formulario-cliente">
+    <form class="card formulario-cliente" method="POST" action="../php/procesar_altas_cliente.php">
         <div class="row">
             <div class="col">
                 <label>Nombre:</label>
             </div>
             <div class="col">
-                <input type="text" class="form-control" id="nombre_cliente" placeholder="Nombre" >
+                <input type="text" class="form-control" id="nombre_cliente" placeholder="Nombre" name="caja_nombre_cliente" >
             </div>
         </div>
         <div class="row">
@@ -24,7 +24,7 @@
                 <label>Primer Apellido:</label>
             </div>
             <div class="col">
-                <input type="text" id="primer_ap_cliente" placeholder="Primer Apellido">
+                <input type="text" id="primer_ap_cliente" placeholder="Primer Apellido" name="caja_primer_ap_cliente">
             </div>
         </div>
         <div class="row">
@@ -32,7 +32,7 @@
                 <label>Segundo Apellido:</label>
             </div>
             <div class="col">
-                <input type="text" id="segundo_ap_cliente" placeholder="Segundo Apellido">
+                <input type="text" id="segundo_ap_cliente" placeholder="Segundo Apellido" name="caja_segundo_ap_cliente">
             </div>
         </div>
         <div class="row">
@@ -40,7 +40,7 @@
                 <label>Direccion:</label>
             </div>
             <div class="col">
-                <input type="text" id="direccion_cliente" placeholder="Direccion">
+                <input type="text" id="direccion_cliente" placeholder="Direccion" name="caja_direccion_cliente">
             </div>
         </div>
         <div class="row">
@@ -48,7 +48,7 @@
                 <label>Telefono:</label>
             </div>
             <div class="col">
-                <input type="tel" id="telefono_cliente" placeholder="Telefono">
+                <input type="tel" id="telefono_cliente" placeholder="Telefono" name="caja_telefono_cliente">
             </div>
         </div>
         <div class="row">
@@ -56,7 +56,7 @@
                 <label>Email:</label>
             </div>
             <div class="col">
-                <input type="email" id="email_cliente" placeholder="Email">
+                <input type="email" id="email_cliente" placeholder="Email" name="caja_email_cliente">
             </div>
         </div>
         <div class="row">
@@ -64,7 +64,7 @@
                 <label>contraseña:</label>
             </div>
             <div class="col">
-                <input type="password" id="pass_cliente" placeholder="Contraseña">
+                <input type="password" id="pass_cliente" placeholder="Contraseña" name="caja_pass_cliente">
             </div>
         </div>
         <div class="row">
